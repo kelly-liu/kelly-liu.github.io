@@ -50,7 +50,7 @@ header {
 .logo {
 /*	display: -webkit-flex;
 	display: flex;*/
-	display:block;
+	/*display:block;*/
 	width:70px;
 	height:auto;
 	/*width: 75%;*/
@@ -90,7 +90,9 @@ nav li {
 	float: left;
 	display:inline-block;
 	padding: 0 15px;
+	white-space: nowrap;
 }
+
 #menu-icon {
 	display: none;
 }
