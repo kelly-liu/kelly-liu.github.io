@@ -26,7 +26,32 @@
 	
 }
 
+.image {
+	position:relative;
+	height:auto;
+}
 
+.behind {
+	position:absolute;
+	top:139px;
+	left:45px;
+	z-index: -1;
+}
+
+.front {
+	z-index: 1;
+}
+
+.image:hover > .behind {
+	animation: wave 1.5s infinite;
+}
+
+@keyframes wave {
+	50% {
+		-webkit-transform: rotate(25deg);
+		transform: rotate(25deg);
+	}
+}
 body {
 	background-color: #FFFFFF;
 }
