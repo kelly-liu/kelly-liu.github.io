@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Muli-Regular';
-    src: url('fonts/Muli-Regular.ttf');
+	font-family: 'Muli-Regular';
+	src: url('fonts/Muli-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'Muli-Light';
-    src: url('fonts/Muli-Light.ttf');
+	font-family: 'Muli-Light';
+	src: url('fonts/Muli-Light.ttf');
 }
 
 @font-face {
@@ -18,55 +18,36 @@ html, body {
 }
 
 body {
-    margin: 0;
-    font-family: 'Muli-Light', sans-serif;
-    font-weight: 200;
-    line-height: 1.5;
-    background-color: #787878;
+	margin: 0;
+	font-family: 'Muli-Light', sans-serif;
+	font-weight: 200;
+	line-height: 1.5;
+	background-color: #787878;
 }
-
-
-/*body .white {
-	background-color:#FFFFFF;
-	min-height: 100%;
-}
-*/
 
 header {
 	margin: 0%;
 	display: -webkit-flex;
 	display: flex;
 	-webkit-justify-content: space-between;
-    justify-content: space-between;
-    -webkit-align-items: center;
-    align-items: center;
-    padding: 10px 0;
-    /*height: 50px;*/
-    /*background-color: #FF8170;*/
-    background-color: #03527F;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	align-items: center;
+	padding: 10px 0;
+	background-color: #03527F;
 
 }
 
 .logo {
-/*	display: -webkit-flex;
-	display: flex;*/
-	/*display:block;*/
 	width:70px;
 	height:auto;
-	/*width: 75%;*/
-	/*height: 75%;*/
 }
 
 
 nav {
 	font-family: 'AlegreyaSans', sans-serif;
-	/*display: -webkit-flex;
-	display: flex;
-	-webkit-justify-content: flex-end;
-    justify-content: flex-end;*/
 	float: right;
 	margin-right: 1%;
-	/*width:100%;*/
 }
 
 nav a {
@@ -83,7 +64,6 @@ nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	/*display: none;*/
 }
 
 nav li {
@@ -141,14 +121,13 @@ h1 {
 	display: -webkit-flex;
 	display: flex;
 	-webkit-justify-content: center;
-    justify-content: center;
-    -webkit-flex-wrap: wrap;
-    
+	justify-content: center;
+	-webkit-flex-wrap: wrap;
+
 }
 
 .banner {
 	padding: 8% 0%;
-	/*background-color: #FFFFFF;*/
 }
 
 .banner img {
@@ -175,27 +154,14 @@ a {
 	-webkit-flex-direction: column;
 	flex-direction: column;
 	-webkit-justify-content: center;
-    justify-content: center;
-    -webkit-flex-wrap: wrap;
+	justify-content: center;
+	-webkit-flex-wrap: wrap;
 
 }
-
-/*.arrow-down {
-	display: block;
-	margin: 6% auto 0 auto;
-	padding: 4%;
-	outline:none;
-}
-
-.arrow-down:hover {
-
-}*/
 
 img {
 	outline:none;
 	border: 0;
-	/*max-width: 100%;
-	height:auto;*/
 }
 
 .footer {
@@ -208,9 +174,7 @@ img {
 .footer a {
 	margin: 0% .5%;
 	font-size: .9em;
-	color: #FFFFFF;
-
-	
+	color: #FFFFFF;	
 }
 
 .footer p {
@@ -220,7 +184,6 @@ img {
 }
 
 .main {
-	/*margin: 0 12%;*/
 	width:1000px;
 	margin: auto;
 	background-color: #FFFFFF;
@@ -236,8 +199,8 @@ img {
 
 .animate-out {
 	-webkit-transition: opacity .7s;
-    transition: opacity .7s;
-    opacity: 0;
+	transition: opacity .7s;
+	opacity: 0;
 }
 
 @-webkit-keyframes fadeIn {
@@ -251,7 +214,7 @@ img {
 }
 
 @media screen and (max-width: 1000px) {
-.main {
+	.main {
 		width:100%;
 	}
 }
@@ -265,25 +228,15 @@ img {
 		margin:auto;
 	}
 	.banner-image {
-	padding: 7% 5% 0 5%;
+		padding: 7% 5% 0 5%;
 	}
 	.main {
 		margin: 0;
 	}
 
-
-	/*fix project boxes*/
 }
-/*774: change header to be shrunk or smaller font*/
 
 @media screen and (max-width: 640px) {
-/*	.title {
-		padding: 0;
-		margin: auto;
-		font-size: 4.5em;
-
-	}*/
-
 
 	.tagline {
 		padding: 0 3%;
@@ -291,7 +244,7 @@ img {
 		text-align: center;
 	}
 	.banner-image {
-	padding: 7% 5% 0 5%;
+		padding: 7% 5% 0 5%;
 	}
 
 	#menu-icon {
@@ -313,26 +266,12 @@ img {
 		display:none;
 	}
 
-	/*.responsive nav {
-		display: relative;
-	}*/
 
 	.responsive nav #menu-icon { 
 		display: inline-block;
 		position:absolute;
 		right:0;
 		top:0;
-		/*display: inline-block;
-		position: absolute; 
-		float:right;
-		padding: 5px;
-		background: #03527F;
-		/*right: 20px;
-		top: 80px;*/
-		/*width: 50%;*/
-		/*border-radius: 2px;
-		border-color: #FFFFFF;*/
-
 	}
 
 	.responsive ul{
@@ -354,19 +293,6 @@ img {
 		background-color: #024266;
 	}
 
-	/*nav li .responsive a{
-		display: block;
-		text-align: left;
-		/*width: 100%;
-		padding: 10px 0;
-		margin: 0;*/
-
-	/*}*/
-
-	/*nav:hover ul {
-		display: block;
-
-	}*/
 }
 
 @media screen and (max-width: 420px) {
@@ -382,12 +308,9 @@ img {
 		text-align: center;
 	}
 	img {
-	padding: 7% 5% 0 5%;
+		padding: 7% 5% 0 5%;
 	}
 	.main {
 		margin: 0;
 	}
-}
-
-
 }
