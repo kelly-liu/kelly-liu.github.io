@@ -184,7 +184,7 @@ img {
 }
 
 .main {
-	width:80%;
+	width:1000px;
 	margin: auto;
 	background-color: #FFFFFF;
 	height:auto;
@@ -231,10 +231,8 @@ img {
 		padding: 7% 5% 0 5%;
 	}
 	.main {
-		margin: 0;
 		width:100%;
 	}
-
 }
 
 @media screen and (max-width: 640px) {
@@ -256,7 +254,6 @@ img {
 	}
 	
 	.main {
-		margin: 0;
 		width:100%;
 	}
 
@@ -313,11 +310,7 @@ img {
 		padding: 7% 5% 0 5%;
 	}
 	.main {
-		margin: 0;
 		width:100%;
 	}
-}
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) {
-     -webkit-MAX-device-pixel-ratio: 1;
 }
