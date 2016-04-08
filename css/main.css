@@ -184,10 +184,9 @@ img {
 }
 
 .main {
-	width:1000px;
+	max-width:1000px;
 	margin: auto;
 	background-color: #FFFFFF;
-	height:auto;
 }
 
 
@@ -313,24 +312,4 @@ img {
 		width:100%;
 	}
 
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (device-pixel-ratio:2) {
-	.title {
-		padding: 0;
-		margin: auto;
-		font-size: 4.5em;
-
-	}
-	.tagline {
-		padding: 0 5%;
-		margin:auto;
-		text-align: center;
-	}
-	img {
-		padding: 7% 5% 0 5%;
-	}
-	.main {
-		width:100%;
-	}
 }
