@@ -13,9 +13,9 @@
 	src: url('fonts/AlegreyaSansSC-Light.ttf');
 }
 
-/*html, body {
-	height:100%;
-}*/
+html, body {
+	height:auto;
+}
 
 body {
 	margin: 0;
